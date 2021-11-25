@@ -1,0 +1,24 @@
+{
+  "name": "api_nodejs_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasDSBR/API_Nodejs_Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasDSBR/API_Nodejs_Express/issues"
+  },
+  "homepage": "https://github.com/lucasDSBR/API_Nodejs_Express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1"
+  }
+}
