@@ -21,11 +21,15 @@ module.exports = app => {
             state: req.body.state,
             createdAt: new Date()
         })
-        res.status(201).json(customerWalletsMock);
+        res.status(201).json({"sucesso":"usuario cadastrdo com sucesso!"});
     }
 
     controller.deleteCustomerWallets = (req, res) => {
+        console.log(req.params)
 
+        const valor = customerWalletsMock.data.findIndex(custom => custom.id === req.params.id)
+
+        res.status(201).json(valor);
     }
     return controller;
 }
